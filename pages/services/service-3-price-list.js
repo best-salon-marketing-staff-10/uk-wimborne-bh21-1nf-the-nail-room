@@ -244,10 +244,7 @@ export default function Service3PriceList(){
                                £{serviceList3.service7Price}
                             </span>
                         </div>
-                    </div>
-                    
-                    
-
+                    </div> 
                 </div>
             </div>
         </>

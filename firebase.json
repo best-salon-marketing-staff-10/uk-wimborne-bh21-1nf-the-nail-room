@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "site": "thenailbarchristchurch",
+    "site": "thenailroom36",
     "public": "out",
     "ignore": [
       "firebase.json",
