@@ -11,7 +11,7 @@ export default function desktopTopBar(){
 
                 </div>
                 <div className="top-bar">
-                    <Link href={processedInfo.callBusiness}>
+                    <Link href={processedInfo.callBusiness2}>
                         <div className="top-bar-item-left">
                             CALL NOW
                         </div>

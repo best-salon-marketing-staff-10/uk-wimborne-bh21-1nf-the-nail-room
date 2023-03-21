@@ -1002,7 +1002,13 @@
     /*footer
     */
     .footer-image{
-      max-width: 20px;
+      max-width: 30px;
+      margin-top: 40px;
+    }
+
+    .footer-image-2{
+      max-width: 30px;
+      margin-top: 10px;
     }
     .footer{
       margin-top: 50px;
@@ -1027,8 +1033,9 @@
       margin-left: 10px;
       color: #8C96A8;
       font-weight: 500;
-      font-size: 19px;
+      font-size: 20px;
       text-decoration: none;
+      display: grid;
     }
     .footer-navigation-item-details-1,
     .footer-navigation-item-details-2{

@@ -125,22 +125,28 @@ export default function DesktopFooter(){
                                 {menu.mainMenu6}
                             </h2>
                             <div className="footer-navigation-item-details">
-                                <Link href={processedInfo.callBusiness}>
                                     <div className="footer-navigation-item-details-1">
                                         <div>
                                             <img className="footer-image" alt={imageAlt.footerImagePhoneIconAlt} src={images.footerImagePhoneIcon} />
                                         </div>
                                         <div>
+                                    <Link href={processedInfo.callBusiness2}>
+                                            <a className="footer-navigation-item-details">
+                                                {changedInfo.businessPhoneNumber2}
+                                            </a>
+                                    </Link> 
+                                    <Link href={processedInfo.callBusiness}>
                                             <a className="footer-navigation-item-details">
                                                 {changedInfo.businessPhoneNumber}
                                             </a>
+                                    </Link>                                       
                                         </div>
                                     </div>
-                                </Link>  
+                               
                                 <Link href={changedInfo.linkToMap}>  
                                     <div className="footer-navigation-item-details-2">
                                         <div>
-                                            <img className="footer-image" alt={imageAlt.footerImageMapPointerIconAlt}  src={images.footerImageMapPointerIcon} />
+                                            <img className="footer-image-2" alt={imageAlt.footerImageMapPointerIconAlt}  src={images.footerImageMapPointerIcon} />
                                         </div>
                                         <div>
                                             <a className="footer-navigation-item-details">

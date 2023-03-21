@@ -26,6 +26,8 @@ export default function TimeSchedule(){
                                 {processedBusinessOpeningTime.workingTimeSat}
                                 <br />
                                 {processedBusinessOpeningTime.workingTimeSun}
+                                <br />
+                                {processedBusinessOpeningTime.workingTimeHoliday}
                             </div>   
                     </div>
                 </div>
