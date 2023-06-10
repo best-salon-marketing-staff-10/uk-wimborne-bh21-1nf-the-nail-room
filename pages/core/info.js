@@ -114,7 +114,7 @@ const changedInfo = {
   businessPhoneNumber2: "01202886682",
 
   //Website tiệm KO có dấu / ở cuối
-  businessWebsite: "",
+  businessWebsite: "https://thenailroom36.web.app",
 
   linkBookingMap: "",
   linkBookingApp: "https://bit.ly/427gf2F",
@@ -359,11 +359,14 @@ const headerInput = {
   metaGeoPosition : changedInfo.geoLatitude + ", " + changedInfo.geoLongitude,
   metaGeoPlaceName : changedInfo.businessAddressLevel2 + ", " + changedInfo.businessCountry,
   metaGeoRegion: changedInfo.businessGeoRegionCode + "-" + changedInfo.businessAddressDivisionCode,
+
+  metaOgSiteName: changedInfo.businessName,
+  metaOgLocale: "en_GB",
   
   metaOgTitle: processedInfo.slogan,
   metaOgImage: changedInfo.ogImage,
-  metaOgImageWidth: "1200",
-  metaOgImageHeight: "630",
+  metaOgImageWidth: "1920",
+  metaOgImageHeight: "1073",
 
   metaGoogleSiteVerification: changedInfo.metaGoogleSiteVerification,
 }
@@ -584,7 +587,7 @@ const pageContent = {
   ourStoryDescription: "Located at " + changedInfo.businessAddressLevel1 + ", we are a nail shop in " + changedInfo.businessAddressLevel2 + ". Skilled manicurists and pedicurists look forward to bringing you the best products and services. We are always researching and learning the best products and services, trendy nails, to bring more and more satisfaction to customers who are coming to us.",
 
   //dong-vien-1.js
-  section1Heading: "We are " + seoKeyword.seoKeyword3 + " experienced manicurists and pedicurists",
+  section1Heading:  "We are experienced manicurists and pedicurists in " + changedInfo.businessAddressLevel2,
   section1Description: "Are you looking for nail salon in " + changedInfo.businessAddressLevel2 + "? One of the best nail salon in " + changedInfo.businessAddressLevel3 + "? We are proud to say that here we are. We can give you amazing nails with our acrylic extensions and great relaxation with our manicure and pedicure services. We cater to both men and women. You can rest assured and get a sense of satisfaction when you come to us",
 
   //dong-vien-2.js
