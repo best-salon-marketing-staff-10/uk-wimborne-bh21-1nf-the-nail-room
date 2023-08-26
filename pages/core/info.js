@@ -438,7 +438,7 @@ const schemaInput = {
   schemaPriceRange: "££",
   //Cần đổi tên khách
   schemaPersonReviewAuthorName: "Elisa Dewhirst",
-  //Xem điểm review trung bình của tiệm là bao nhiêu 
+  //Xem điểm review trung bình của tiệm là bao nhiêu
   schemaRatingValue: "5",
   schemaBestRating: "5",
 
@@ -1217,14 +1217,15 @@ const images = {
     }; 
   
   const serviceList2 = {
-    service1 : "Nail shape with Shellac polish",
+    service1 : "Nail shape with Shellac polish on hand",
     service1Time : "25 mins",
     service1Price : "22",
     service1Description : "Let us transform your nails into perfectly shaped works of art, while long-lasting Shellac polish adds a pop of vibrant color to your fingertips. You'll feel confident and beautiful with every hand gesture, making you fall in love with yourself all over again.",
 
+    //
     service2 : "Nail shape with Shellac nails on feet",
     service2Time : "30 mins",
-    service2Price : "20",
+    service2Price : "25",
     service2Description : "Our expert technicians will shape and polish your toes to perfection, leaving you with beautifully polished and well-groomed feet. With the long-lasting, chip-resistant Shellac polish, you can enjoy your stunning feet for weeks to come. Give yourself the gift of self-care and feel confident and stylish with every step.",
  
     service3 : "Manicure Shellac",
@@ -1242,22 +1243,23 @@ const images = {
     service5Price : "60",
     service5Description : "Manicure includes massage, cuticle, shaping, file, polish and moisturiser. Pedicure includes scrub, dead skin, cuticle, massage, moisturise, shape, file and polish. Shellac pedicure and manicure lasts up to two weeks, it’s well worth the wait.",
 
-    service6 : "Take off shellac and Redone on Hand",
+    service6 : "Take off Shellac and Redone Gel Polish on Hand",
     service6Time : "30 mins",
     service6Price : "25",
     service6Description : "Pamper yourself with a polished and refreshed look for your nails. Our expert technicians will expertly remove your old shellac and reapply a beautiful gel polish that will leave your hands looking stunning and feeling silky smooth. Treat yourself to a little self-love and let us help you fall in love with your hands all over again.",
   
-    service7 : "Take off shellac and Redone Gel Polish on Feet",
+    //
+    service7 : "Take off Shellac and Redone Gel Polish on Feet",
     service7Time : "40 mins",
-    service7Price : "25",
+    service7Price : "28",
     service7Description : "Our skilled technicians will expertly remove your shellac and expertly apply a new, fresh coat of gel polish for a pampered, polished look. Indulge in the self-care you deserve and show your feet some love with this rejuvenating treatment",
 
-    service9 : "Take off shellac and Redone Normal Polish on Hand",
+    service9 : "Take off Shellac and Redone Normal Polish on Hand",
     service9Time : "30 mins",
     service9Price : "20",
     service9Description : "Our expert technicians will carefully remove your old shellac and flawlessly reapply a normal polish that will leave your hands looking and feeling refreshed. ",
 
-    service10 : "Take off shellac and Redone Normal Polish on Feet",
+    service10 : "Take off Shellac and Redone Normal Polish on Feet",
     service10Time : "40 mins",
     service10Price : "20",
     service10Description : "Give your tired feet the break they deserve and step out with confidence and style. Our professional technicians will gently remove your old shellac and give your feet a makeover with a stunning new normal polish. Enjoy the feeling of silky smooth feet and bask in the glow of a refreshed, polished look.",
