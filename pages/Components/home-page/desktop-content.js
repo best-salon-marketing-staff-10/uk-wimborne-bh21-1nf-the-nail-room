@@ -35,7 +35,7 @@ export default function DesktopContent(){
                         <div className="button">
                             <Button1 />
                         </div>
-                    </div>              
+                    </div>                
                 </div>
                 <div className="nhan-manh-1" id="d-section-1">
                     <NhanManh1 />

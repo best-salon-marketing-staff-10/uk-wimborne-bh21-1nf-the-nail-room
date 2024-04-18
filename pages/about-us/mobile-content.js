@@ -15,28 +15,32 @@ import { imageAlt } from '/pages/core/info';
 
 export default function MobileContent(){
     //Cần biến đoạn này thành component cho ngon lành, component carousel hay gì đó tùy có thể ko cần carousel
-    return(
-        <>
-            <div className="mobile-about-us">
-                <div>
+
+    /*
+        <div>
                     <Carousel fade={true} controls={false} interval="1800">
                         <Carousel.Item>
-                            <div className="carousel-image-1">
+                            <div className="carousel-image">
                                 <img className="d-block w-100" alt={imageAlt.mobileAboutUsImage1Alt} src={images.mobileAboutUsImage1} />
                             </div>
                         </Carousel.Item>
                         <Carousel.Item>
-                            <div className="carousel-image-1">
+                            <div className="carousel-image">
                                 <img className="d-block w-100" alt={imageAlt.mobileAboutUsImage2Alt} src={images.mobileAboutUsImage2} />
                             </div>
                         </Carousel.Item>
                         <Carousel.Item>
-                            <div className="carousel-image-1">
+                            <div className="carousel-image">
                                 <img className="d-block w-100" alt={imageAlt.mobileAboutUsImage3Alt} src={images.mobileAboutUsImage3} />
                             </div>
                         </Carousel.Item>
                     </Carousel> 
                 </div>
+    */
+    return(
+        <>
+            <div className="mobile-about-us">
+                
 
                 <div className="mobile-about-us-our-story">
                     <OurStory />

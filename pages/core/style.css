@@ -56,8 +56,6 @@
 */
   /*Chống copy nội dung trang, tải ảnh....
   */
-
-
   html{
     -youbkit-touch-callout: none; 
     -youbkit-user-select: none;   
@@ -65,10 +63,7 @@
     -ms-user-select: none;      
     user-select: none;   
   }
-
-    
-  /*
-  */
+  
   img{
     display: block;
     max-width: 100%;
@@ -155,6 +150,7 @@
     font-size: 20px;
     margin: auto;
     margin-top: 5px;
+    margin-right: 10px;
   }
   .price-list-details-services-name-notice{
     font-size: 13px;
@@ -962,7 +958,7 @@
       margin-right: 10px; 
     }
     .customer-review-carousel-image{
-      max-width: 480px;
+      max-width: 100%;
     }
     .customer-review-description{
       text-align: center;
@@ -1002,13 +998,8 @@
     /*footer
     */
     .footer-image{
-      max-width: 30px;
-      margin-top: 40px;
-    }
-
-    .footer-image-2{
-      max-width: 30px;
-      margin-top: 10px;
+      max-width: 20px;
+      margin-top: 20px;
     }
     .footer{
       margin-top: 50px;
@@ -1026,6 +1017,9 @@
       margin-top: 20px;
       text-decoration: none;
     }
+    .footer-navigation-item-details-phonenumber{
+      display: grid;
+    }
     .footer-navigation-services-detail-services,
     .footer-navigation-item-detail-services,
     .footer-navigation-item-details{
@@ -1035,7 +1029,6 @@
       font-weight: 500;
       font-size: 20px;
       text-decoration: none;
-      display: grid;
     }
     .footer-navigation-item-details-1,
     .footer-navigation-item-details-2{
@@ -1074,9 +1067,4 @@
     font-size: 20px;
   }
 
-  /*Phần ảnh carousel của trang About us
-  */
-  .desktop-about-us-carousel-image,
-  .carousel-image-1{
-    display: none;
-  }
+  

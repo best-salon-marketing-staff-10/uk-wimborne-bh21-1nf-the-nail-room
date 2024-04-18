@@ -14,30 +14,30 @@ import { imageAlt } from '/pages/core/info';
 
 
 export default function TabletContent(){
-    
-    return(
-        <>
-            <div className="tablet-about-us">
-                <div>
+    /*<div>
                     <Carousel fade={true} controls={false} interval="1800">
                         <Carousel.Item>
-                            <div className="carousel-image-1">
+                            <div className="carousel-image">
                                 <img className="d-block w-100" alt={imageAlt.tabletAboutUsImage1Alt} src={images.tabletAboutUsImage1} />
                             </div>
                         </Carousel.Item>
                         <Carousel.Item>
-                            <div className="carousel-image-1">
+                            <div className="carousel-image">
                                 <img className="d-block w-100" alt={imageAlt.tabletAboutUsImage2Alt} src={images.tabletAboutUsImage2} />
                             </div>
                         </Carousel.Item>
                         <Carousel.Item>
-                            <div className="carousel-image-1">
+                            <div className="carousel-image">
                                 <img className="d-block w-100" alt={imageAlt.tabletAboutUsImage3Alt} src={images.tabletAboutUsImage3} />
                             </div>
                         </Carousel.Item>
                     </Carousel> 
                 </div>
-
+*/
+    return(
+        <>
+            <div className="tablet-about-us">
+                
                 <div className="tablet-about-us-our-story">
                     <OurStory />
                 </div>
